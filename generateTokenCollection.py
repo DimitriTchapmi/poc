@@ -16,4 +16,4 @@ key = base64.b64decode(key.encode('utf-8'))
 signature = base64.b64encode(hmac.new(key, msg = payload, digestmod = hashlib.sha256).digest()).decode()
 authStr = urllib.quote('type=master&ver=1.0&sig={}'.format(signature))
 print authStr+";"+(now).lower()
-print authStr+"dimi"+(now).lower()
+print authStr+"dimi"+(now).lower()+"poc"
