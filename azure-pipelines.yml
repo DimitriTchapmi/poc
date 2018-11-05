@@ -10,7 +10,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
   
-- script: python generateTokenCollection.py primarykeysample databasename
+#- script: python generateTokenCollection.py primarykeysample databasename
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
